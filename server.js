@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 const mysql = require('mysql');
-// const products = require('./products');
+
+require('dotenv').config();
 
 const db = mysql.createConnection({
     host: "sql6.freesqldatabase.com",
@@ -9,6 +10,7 @@ const db = mysql.createConnection({
     password: "YwTRkibeJI",
     database: "sql6640348",
 });
+
 
 app.use(express.json());
 
