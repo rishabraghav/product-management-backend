@@ -3,7 +3,7 @@ const app = express();
 const bcrypt = require('bcrypt');
 const cors = require('cors');
 const db = require('./db');
-require('dotenv').config();
+
 
 app.use(express.json());
 app.use(cors({
