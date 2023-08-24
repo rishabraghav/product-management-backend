@@ -2,8 +2,8 @@ const mysql = require('mysql');
 
 // Replace these values with the credentials from your PlanetScale project
 const host = "aws.connect.psdb.cloud";
-const username = "o49mtbgdmz2fxg29bh61";
-const password = "pscale_pw_w9otzJIFx8IbmkpWZlG6xMLtS4my3XvW1ybEM2BxKTn";
+const username = "rp7uew1pvjcl3cu4q94k";
+const password = "pscale_pw_Jh5zK4V2fnMkL300XhKVWgp4VSOzusVXh1kdSyXGpwT";
 const database = "products-management";
 
 const db = mysql.createConnection({
