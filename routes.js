@@ -6,7 +6,9 @@ const db = require('./db');
 require('dotenv').config();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: 'https://amberpass-products-management.netlify.app'
+  }));
 
 
 app.post('/login', (req, res) => {
